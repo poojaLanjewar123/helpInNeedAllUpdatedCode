@@ -1,0 +1,6 @@
+<aura:component controller="accRecordAura" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<lightning:button  label="Create record" title="Create" onclick="{!c.methodApex}"/>
+    <lightning:button  label="Insert acc Record" title="Create" onclick="{!c.insertAccRecord}"/>
+    <lightning:button  label="Insert acc List Record" title="Create Record" onclick="{!c.insertAccListRecord}"/>
+	
+</aura:component>

@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Picklist Vlaues based on Record Type">
+      
+            <lightning-combobox name="progress"
+                                label="Industry"
+                                value={value}
+                                placeholder="-Select-"
+                                options={options}
+                                onchange={handleChange} >
+            </lightning-combobox><br/>
+        
+            you selected industry: <b>{value}</b>
+      
+    </lightning-card>
+    
+</template>

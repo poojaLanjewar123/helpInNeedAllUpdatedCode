@@ -1,0 +1,5 @@
+<aura:component >
+    
+    <p> my first lightning Aura Componenr </p>
+	
+</aura:component>

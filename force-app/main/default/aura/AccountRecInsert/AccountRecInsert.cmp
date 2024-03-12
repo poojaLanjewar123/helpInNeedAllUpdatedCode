@@ -1,0 +1,7 @@
+<aura:component controller="accInsertInput" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<lightning:input type="text" name="input1" label="Name" value="" aura:id="inpId1" />
+    <lightning:input type="text" name="input2" label="Phone" value="" aura:id="inpId2" />
+    <lightning:input type="text" name="input3" label="Industry" value="" aura:id="inpId3" />
+     <lightning:button  label="Insert acc Record" title="Create" onclick="{!c.insertAccRecord}"/>
+    
+</aura:component>

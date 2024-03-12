@@ -1,0 +1,10 @@
+<apex:page controller="DEmoVFClass">
+    <apex:form >
+        {!str}<br/>
+        <apex:inputText value="{!strText}" />
+        <apex:commandButton value="callApexMethod" action="{!DemoMethod}"/>
+        
+        
+    </apex:form>
+    
+</apex:page>

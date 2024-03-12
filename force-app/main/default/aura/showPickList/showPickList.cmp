@@ -1,0 +1,8 @@
+<aura:component controller = "BankPickList" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="optionsList"  type="list"/>
+    <lightning:combobox  label="Status"  options="{! v.optionsList }" />
+    <lightning:button
+        label="Show"
+        onclick="{!c.showAura}" />
+    
+</aura:component>

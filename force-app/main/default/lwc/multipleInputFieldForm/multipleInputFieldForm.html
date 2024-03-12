@@ -1,0 +1,14 @@
+<template>
+    <lightning-card>
+        <lightning-input type="text" label="Enter your First name" name ="firstName"></lightning-input> </div><br />
+        <lightning-input type="text" label="Enter your Last name" name ="lastName"></lightning-input> </div><br />
+        <lightning-input type="text" label="Enter your Gender" name ="gender"></lightning-input> </div><br />
+        <lightning-input type="date" label="Enter your DOB" name = "dob"></lightning-input> </div><br />
+        <lightning-button variant="brand" label="submit" title="submit" onclick={submitMethod} class="slds-m-left_x-small"></lightning-button><br />
+
+        First Name = {firstName}<br />
+        Last Name = {lastName}<br />
+        Gender = {gender}<br />
+        DOB = {dob}<br />
+    </lightning-card>
+</template>

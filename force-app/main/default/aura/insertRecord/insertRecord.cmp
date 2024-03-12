@@ -1,0 +1,9 @@
+<aura:component controller="accRecordAura" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <lightning:button label ="Submit" onclick ="{!c.auraMethod}"/>
+    <lightning:input label = "Name" value="" type="text" aura:Id= "AccountName"/>
+     <lightning:input label = "Phone" value="" type="text" aura:Id= "Phone"/>
+     <lightning:input label = "Industry" value="" type="text" aura:Id= "Industry"/>
+    
+    
+    
+</aura:component>

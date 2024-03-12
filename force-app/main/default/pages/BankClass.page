@@ -1,0 +1,17 @@
+<apex:page controller="BankSharing">
+    <apex:form >
+    <apex:pageBlock title="My Content">
+
+        <apex:pageBlockTable value="{!bankList}" var="item">
+
+            <apex:column value="{!item.name}"/>
+            <apex:column value="{!item.owner.firstName}"/>
+            <apex:column value="{!item.owner.LastName}"/>
+
+        </apex:pageBlockTable>
+
+    </apex:pageBlock>
+    
+    </apex:form>
+    
+</apex:page>

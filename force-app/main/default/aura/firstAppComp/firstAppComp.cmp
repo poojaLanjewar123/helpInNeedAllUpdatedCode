@@ -1,0 +1,10 @@
+<aura:component controller="recordIdEventClass" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<aura:registerEvent name="appEvent" type="c:AppEvent"/>
+    
+    <lightning:input label = "Name" value="" type="text" aura:Id= "AccountName"/>
+     <lightning:input label = "Phone" value="" type="text" aura:Id= "Phone"/>
+     <lightning:input label = "Industry" value="" type="text" aura:Id= "Industry"/>
+    <lightning:button label="account create" onclick="{!c.fireApplicationEvent}" />
+    
+   
+</aura:component>

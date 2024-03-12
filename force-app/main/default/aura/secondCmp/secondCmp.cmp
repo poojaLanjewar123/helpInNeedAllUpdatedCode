@@ -1,0 +1,5 @@
+<aura:component controller="secondAuraClass" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	
+    <lightning:button  label="submit" title="Base action" onclick="{!c.onClick}"/>
+    <lightning:button  label="call Apex" title="Base action" onclick="{!c.apexMethod}"/>
+</aura:component>

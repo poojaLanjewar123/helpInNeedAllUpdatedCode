@@ -1,0 +1,24 @@
+.forntSizeCustom{
+    font-size: 2rem;
+}
+.box{
+    border: 2px solid #9197da;
+    width: 88%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 5px 10px #e6e6ea;
+}
+
+.button{
+    padding: 10px;
+    text-align: center;
+    background-color: #3844c9;
+    color: red;
+    font-weight: bold;
+
+}
+
+.button:hover{
+    background-color: #c98838;
+    cursor: pointer;
+}

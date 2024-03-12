@@ -1,0 +1,29 @@
+<apex:page Controller="ConfirnInsert">
+
+    <apex:form >
+
+        <apex:pageBlock title="New Account">
+
+            <apex:pageBlockSection >
+
+                <apex:inputText value="{!Name}"/>
+
+                <apex:commandButton value="Insert" onclick="alrt()" action="{!save}"/>
+
+            </apex:pageBlockSection>
+
+        </apex:pageBlock>
+
+    </apex:form>
+
+    <script>
+
+        function alrt(){
+
+            alert('Do you really want to insert record?');
+
+        }
+
+    </script>
+
+</apex:page>

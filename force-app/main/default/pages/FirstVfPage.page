@@ -1,0 +1,8 @@
+<apex:page controller="Apex_To_VF_Page" >
+    <apex:form >
+    
+        {!num}
+        
+    <apex:commandButton value="show Result" action="{!FirstApexMethod}"/>
+    </apex:form>  
+</apex:page>

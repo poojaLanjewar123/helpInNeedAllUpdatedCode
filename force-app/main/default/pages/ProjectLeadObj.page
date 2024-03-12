@@ -1,0 +1,24 @@
+<apex:page controller="ProjectLeadClass" >
+    <apex:form >
+    	<apex:pageBlock mode="Details" title="Create Lead">
+            
+            <div align = "center" style ="margin-top:10px">
+                <apex:commandButton value="save" action="{!Save}"/>
+            </div>
+                
+                   
+                    <apex:pageBlockSection title="Details">
+                        <apex:inputText label="Last Name" value="{!LastName}"/>
+                        <apex:inputText label="Company Name" value="{!Company}"/>
+                        <apex:inputText label="Phone" value="{!Phone}"/>
+                        <apex:inputText label="Email" value="{!Email}"/>
+                    </apex:pageBlockSection>
+            
+            
+            <div align = "center" style ="margin-top:10px">
+                <apex:commandButton value="save" action="{!Save}"/>
+            </div>
+            
+        </apex:pageBlock>    
+    </apex:form>    
+</apex:page>

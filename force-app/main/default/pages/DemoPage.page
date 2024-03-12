@@ -1,0 +1,20 @@
+<apex:page >
+    <apex:form >
+        <div align = "center" style ="font-size:24px;color:green; background-color:yellow; margin-top:100px">
+            this is first VF page <br/>
+            This is inside Div tag.
+        </div>
+        
+        <div align = "right">
+          this is first VF page  
+        </div>
+        
+        <div align = "left">
+          this is first VF page  
+        </div>
+    	
+    
+    
+    </apex:form>
+    
+</apex:page>

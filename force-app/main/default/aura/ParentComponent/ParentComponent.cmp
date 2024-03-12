@@ -1,0 +1,7 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <c:childComponent Name="abcd"
+                      LastName="xyz"
+                      Industry="Banking"
+                      Age="25"
+                      RollNo="20"/> 	
+</aura:component>

@@ -1,0 +1,8 @@
+<aura:component controller="searchClass" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	<aura:attribute name="AccountRecord" type="list" />
+    <lightning:input type="Search" name="input1" value="" label="Enter any value" aura:id="searchInpId" onchange ="{!c.searchMethod}" />
+    <!--<lightning:button  label="search" title="Base action" onclick="{!c.searchMethod }"/>-->
+    <aura:iteration items="{!v.AccountRecord}" var="item">
+        {!item.Name}
+    </aura:iteration> 
+</aura:component>

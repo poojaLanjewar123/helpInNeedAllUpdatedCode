@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Google form">
+
+        <lightning-input type="text" label="Enter Name"  ></lightning-input> <br />
+        <lightning-input type="text" label="Enter First Name" name="firstName" ></lightning-input> <br />
+        <lightning-input type="text" label="Enter Last Name" name="lastName" ></lightning-input> <br />
+        <lightning-input type="text" label="Enter  Gender" name="gender" ></lightning-input> <br />
+        <lightning-input type="date" label="Enter dob" name="dob" ></lightning-input> <br />
+
+
+        <lightning-button variant="brand" label="submit" title="submit" onclick={submitMethod}></lightning-button><br/>
+
+        Your Name : {name} <br />
+        First Name : {firstName}<br />
+        Last Name : {lastName}<br />
+        Gender : {gender}<br />
+        DOB : {dob}<br />
+
+    </lightning-card>
+</template>
