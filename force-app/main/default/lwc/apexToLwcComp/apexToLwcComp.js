@@ -1,5 +1,6 @@
 import { LightningElement, wire} from 'lwc';
 import accData from "@salesforce/apex/accController.accList";
+//Hey this are new changes at 16:22 PM
 
 export default class ApexToLwcComp extends LightningElement {
     //@wire(accData) accrecData;
